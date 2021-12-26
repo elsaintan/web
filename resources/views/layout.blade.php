@@ -145,19 +145,19 @@ FACEBOOK: https://www.facebook.com/themefisher
 			<div class="row">
 				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
 					<i class="ti-paint-bucket text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">themes made easy</h3>
+					<h3 class="mt-4 text-capitalize h5 ">Lorem ipsum dolor</h3>
 					<p class="regular text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae
 						tempore ipsam dignissimos molestias.</p>
 				</div>
 				<div class="col-lg-4 col-md-6 mt-5 mt-md-0 text-center">
 					<i class="ti-shine text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">powerful design</h3>
+					<h3 class="mt-4 text-capitalize h5 ">Lorem ipsum</h3>
 					<p class="regular text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae
 						tempore ipsam dignissimos molestias.</p>
 				</div>
 				<div class="col-lg-4 col-md-12 mt-5 mt-lg-0 text-center">
 					<i class="ti-thought text-primary h1"></i>
-					<h3 class="mt-4 text-capitalize h5 ">creative content</h3>
+					<h3 class="mt-4 text-capitalize h5 ">Lorem ipsum</h3>
 					<p class="regular text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam non, recusandae
 						tempore ipsam dignissimos molestias.</p>
 					</p>
@@ -182,8 +182,8 @@ FACEBOOK: https://www.facebook.com/themefisher
 			<div class="col-lg-6 mr-auto align-self-center">
 				<div class="feature-content">
 					<!-- Feature Title -->
-					<h2>Increase your productivity with <a
-							href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a></h2>
+					<h2>Konsultasi Online <a
+							href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">HiVet!</a></h2>
 					<!-- Feature Description -->
 					<p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
 						labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -213,8 +213,8 @@ FACEBOOK: https://www.facebook.com/themefisher
 			<div class="col-lg-6 ml-auto align-self-center">
 				<div class="feature-content">
 					<!-- Feature Title -->
-					<h2>Increase your productivity with <a
-							href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a></h2>
+					<h2>Booking Appointment <a
+							href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">HiVet!</a></h2>
 					<!-- Feature Description -->
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
 						dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
@@ -254,7 +254,7 @@ FACEBOOK: https://www.facebook.com/themefisher
 			<div class="col-lg-12">
 				<div class="section-title">
 					<h2>An Interface For Lifestyle</h2>
-					<p><a href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">Small Apps</a> makes
+					<p><a href="https://themefisher.com/products/small-apps-free-app-landing-page-template/">HiVet!</a> makes
 						it easy to stay on top of your Life Style. No late tasks. No gimmicks.</p>
 				</div>
 			</div>
@@ -475,7 +475,7 @@ FACEBOOK: https://www.facebook.com/themefisher
       <div class="row">
         <div class="col-lg-4 col-md-12 m-md-auto align-self-center">
           <div class="block">
-            <a href="index.html"><img src="images/logo-alt.png" alt="footer-logo"></a>
+            <a href="index.html"><img src="images/logo-alt.png" alt="footer-logo" width="100" height="100"></a>
             <!-- Social Site Icons -->
             <ul class="social-icon list-inline">
               <li class="list-inline-item">
