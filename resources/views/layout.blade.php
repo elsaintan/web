@@ -543,13 +543,13 @@ FACEBOOK: https://www.facebook.com/themefisher
       </div>
     </div>
   </div>
-  <div class="text-center bg-dark py-4">
+  <!-- <div class="text-center bg-dark py-4">
     <small class="text-secondary">Copyright &copy; <script>document.write(new Date().getFullYear())</script>. Designed &amp; Developed by <a href="https://themefisher.com/">Themefisher</a></small class="text-secondary">
   </div>
 
 	<div class="text-center bg-dark py-1">
    <small> <p>Distributed By <a href="https://themewagon.com/">Themewagon</a></p></small class="text-secondary">
-  </div>
+  </div> -->
 </footer>
 
 
