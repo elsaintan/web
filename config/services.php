@@ -30,4 +30,15 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'firebase' => [
+        'api_key' => 'AIzaSyAP6h7bTTYDu53ZbFL26oy6amweLRkVta4',
+        'auth_domain' => 'seaid-hivet.firebaseapp.com',
+        'database_url' => 'https://seaid-hivet-default-rtdb.firebaseio.com',
+        'project_id' => 'seaid-hivet',
+        'storage_bucket' => 'seaid-hivet.appspot.com',
+        'messaging_sender_id' => '247912380501',
+        'app_id' => '1:247912380501:web:589ba84ff72fd129a03cdc',
+        'measurement_id' => 'G-GMJB8YW3QY',
+    ],
+
 ];

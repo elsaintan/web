@@ -41,6 +41,27 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link {{ Request::is('dashboard/dokter-hewan*') ? 'active' : '' }}"
+                        href="/dashboard/dokter-hewan">
+                        <span data-feather="users"></span>
+                        Dokter Hewan
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ Request::is('dashboard/pemilik-hewan') ? 'active' : '' }}"
+                        href="/dashboard/pemilik-hewan">
+                        <span data-feather="users"></span>
+                        Pemilik Hewan
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link {{ Request::is('dashboard/tarik-saldo') ? 'active' : '' }}"
+                        href="/dashboard/tarik-saldo">
+                        <span data-feather="users"></span>
+                        Permintaan Penarikan Saldo
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link {{ Request::is('dashboard/message*') ? 'active' : '' }}" href="/dashboard/message">
                         <span data-feather="mail"></span>
                         Message

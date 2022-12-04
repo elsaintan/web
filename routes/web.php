@@ -5,7 +5,10 @@ use App\Http\Controllers\DashboardPostController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\AllPostController;
 use App\Http\Controllers\AdminUserController;
+use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\MessageController;
+use App\Http\Controllers\PemilikHewanController;
+use App\Http\Controllers\VetControllr;
 use App\Models\Category;
 use App\Models\Post;
 use Illuminate\Support\Facades\Route;
@@ -30,10 +33,7 @@ Route::get('/', function () {
     ]);
 })->name('home');
 
-Route::get('/dashboard', function ()
-{
-    return view('home');
-});
+Route::get('/dashboard/', [DashboardController::class, 'index'])->middleware('auth');
 
 Route::get('team', function () {
     return view('team',[
@@ -78,6 +78,22 @@ Route::get('faq', function () {
     ]);
 })->name('faq');
 
+Route::resource('/dashboard/pemilik-hewan', PemilikHewanController::class);
+
+Route::get('/dashboard/dokter-hewan',function(){
+    return view('dashboard.drh.index',[
+        'title' => "Dokter Hewan"
+    ]);
+});
+Route::resource('/dashboard/dokter-hewan', VetControllr::class);
+
+
+Route::get('/dashboard/tarik-saldo',function(){
+    return view('dashboard.drh.saldo',[
+        'title' => "Permintaan Penarikan Saldo"
+    ]);
+});
+
 Route::get('/posts', [PostController::class, 'index'])->name('posts');
 Route::get('/posts/{post:slug}', [PostController::class, 'show']);
 
@@ -99,4 +115,7 @@ Route::resource('/dashboard/message', MessageController::class)->except('show')-
 Route::get('/dashboard/message/{id}/delete',[MessageController::class, 'destroy']);
 
 Auth::routes();
+
+Route::get('/coba', [VetControllr::class, 'index']);
+
 

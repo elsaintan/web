@@ -9,7 +9,9 @@
                 {{ session('success') }}
             </div>
         @endif
-        <a href="/dashboard/users/create" class="btn btn-primary mb-3">Create New User</a>
+        <div class="float-end">
+            <a href="/dashboard/users/create" class="btn btn-primary mb-3 btn-sm">Create New User</a>
+        </div>
         <table class="table table-striped">
             <thead>
                 <tr>

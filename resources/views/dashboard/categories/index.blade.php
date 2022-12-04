@@ -9,7 +9,9 @@
                 {{ session('success') }}
             </div>
         @endif
-        <a href="/dashboard/categories/create" class="btn btn-primary mb-3">Create New Category</a>
+        <div class="float-end">
+            <a href="/dashboard/categories/create" class="btn btn-primary mb-3 btn-sm">Create New Category</a>
+        </div>
         <table class="table table-striped">
             <thead>
                 <tr>
